@@ -1,11 +1,12 @@
 body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background-image: url('../images/background.jpg');
+  color: white;
+  background: #0D0D0D;
 }
 
 a {
-  color: #213555;
+  color: #579db9;
   text-decoration: none;
 }
 
@@ -33,7 +34,7 @@ a:hover {
  }
 
  ul {
-  width: 100vw;
+  width: 400px;
 
  }
 
@@ -51,7 +52,7 @@ a:hover {
 
  .skills-box {
   border: 1px solid #4F709C;
-  width: 95vw;
+  width: 90vw;
   margin-bottom: 50px;
   border-radius: 10px;
   box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
@@ -72,7 +73,7 @@ a:hover {
 
  .projects-box {
   border: 1px solid #4F709C;
-  width: 95vw;
+  width: 90vw;
   box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
 
  }
@@ -84,14 +85,23 @@ a:hover {
 
  #contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
  }
 
  #contact img {
   margin-top: 50px;
   height: 50px;
   width: 50px;
-  padding: 30px;
+  padding: 20px;
+  filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg) brightness(119%) contrast(115%);
+
+ }
+
+ #contact img:hover {
+  background-color:  #579db9;
+  filter: none;
+
  }
 
  button {
@@ -101,6 +111,10 @@ a:hover {
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
+ }
+
+ button:hover {
+  border: 3px solid #579db9;
  }
 
  button img {
