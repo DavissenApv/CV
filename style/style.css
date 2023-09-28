@@ -1,8 +1,8 @@
 body {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
-  background: #0D0D0D;
+  background: #0d0d0d;
 }
 
 a {
@@ -11,100 +11,98 @@ a {
 }
 
 a:hover {
-
-  color:white;
+  color: white;
 }
 
- nav {
+nav {
   display: flex;
   justify-content: center;
   gap: 15px;
- }
+}
 
- figure img{
+figure img {
   border: solid 2px black;
   max-width: 100%;
+}
 
- }
+.skills {
+  height: 40px;
+  width: 40px;
 
- .about-box {
+  padding: 10px;
+}
+.about-box {
   display: flex;
   justify-content: center;
+}
 
- }
-
- ul {
+ul {
   width: 400px;
+}
 
- }
-
- li {
+li {
   text-align: left;
-  margin: 10px ;
+  margin: 10px;
+}
 
- }
-
- #skills {
+#skills {
   display: flex;
   justify-content: center;
-  margin: 10px ;
- }
+  margin: 10px;
+}
 
- .skills-box {
-  border: 1px solid #4F709C;
+.skills-box {
+  border: 1px solid #4f709c;
   width: 90vw;
   margin-bottom: 50px;
   border-radius: 10px;
   box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
   /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
- }
+}
 
- .skills-box h1 {
+.skills-box h1 {
   text-align: left;
   padding-left: 10px;
- }
+}
 
- #projects {
+#projects {
   display: flex;
   justify-content: center;
-  margin: 10px ;
+  margin: 10px;
+}
 
- }
-
- .projects-box {
-  border: 1px solid #4F709C;
+.projects-box {
+  border: 1px solid #4f709c;
   width: 90vw;
   box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
 
- }
-
- .projects-box h1 {
+.projects-box h1 {
   text-align: left;
   padding-left: 10px;
- }
+}
 
- #contact {
+#contact {
   display: flex;
   justify-content: center;
   gap: 50px;
- }
+}
 
- #contact img {
+#contact img {
   margin-top: 50px;
   height: 50px;
   width: 50px;
   padding: 20px;
-  filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg) brightness(119%) contrast(115%);
+  filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg)
+    brightness(119%) contrast(115%);
+}
 
- }
-
- #contact img:hover {
-  background-color:  #579db9;
+#contact img:hover {
+  background-color: #579db9;
   filter: none;
+}
 
- }
-
- button {
+button {
   margin-bottom: 15px;
   padding: 10px 10px;
   display: inline-block;
@@ -113,23 +111,20 @@ a:hover {
   cursor: pointer;
   border: 3px solid #579db9;
   background-color: #579db9;
-  box-shadow: 0 0 5px ;
+  box-shadow: 0 0 5px;
+}
 
- }
+button:hover {
+  background-color: white;
+  border: 3px solid black;
+}
 
- button:hover {
-background-color: white;
-border: 3px solid black;
- }
-
- button img {
+button img {
   width: 15px;
   height: 15px;
- }
+}
 
-
-
- /* Responsive web design */
+/* Responsive web design */
 @media (max-width: 940px) {
   nav {
     position: fixed;
@@ -145,12 +140,9 @@ border: 3px solid black;
   }
 
   nav a:hover {
-    color: #4F709C;
+    color: #4f709c;
   }
   body {
     margin-bottom: 55px;
-
   }
-
-
 }
